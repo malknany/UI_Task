@@ -65,7 +65,7 @@ class _FristPage extends State<FristPage> {
             children: [
               Row(
                 children: const [
-                   CircleAvatar(
+                  CircleAvatar(
                     backgroundColor: Colors.grey,
                     radius: 5,
                   ),
@@ -98,8 +98,10 @@ class _FristPage extends State<FristPage> {
                       fontSize: 16),
                 ),
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const HomePage()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const HomePage()));
                 },
                 backgroundColor: Colors.deepPurpleAccent,
                 shape: RoundedRectangleBorder(
