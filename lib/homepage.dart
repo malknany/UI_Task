@@ -26,7 +26,8 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: SingleChildScrollView(
-        child: Expanded(
+        child: Container(
+          width: double.infinity,
           child: Padding(
             padding: const EdgeInsets.all(20.0),
             child: Column(

@@ -23,7 +23,8 @@ class _FristPage extends State<FristPage> {
         child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Expanded(
+            child: Container(
+              width: double.infinity,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.start,
